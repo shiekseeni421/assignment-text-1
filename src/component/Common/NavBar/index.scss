@@ -1,0 +1,16 @@
+.navbar-container {
+  position: relative;
+  .navbar-el {
+    height: 44px;
+    position: fixed;
+    top: 0px;
+    width: 390px;
+    padding-top: 10px;
+    .time-text {
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 17px;
+      color: #fffefe;
+    }
+  }
+}

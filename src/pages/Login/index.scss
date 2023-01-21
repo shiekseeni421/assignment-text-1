@@ -1,0 +1,317 @@
+p {
+  padding: 0px;
+  margin: 0px;
+}
+
+.login-container {
+  background: linear-gradient(0deg, #f4f4f4 0.5%, #3186ea 99.5%);
+  position: relative;
+}
+
+.slider-text {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 35px;
+  color: #000000;
+  padding-right: 100px;
+  margin-bottom: 10px;
+}
+
+.slider-text1 {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  color: #000000;
+  margin-top: 10px;
+}
+
+.Carousel {
+  margin-top: 45px;
+  margin-bottom: 40px;
+}
+
+.carousel-indicators {
+  position: absolute;
+  bottom: -25px;
+  left: 0;
+  z-index: 1;
+  display: flex;
+  justify-content: flex-start;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.carousel-control-next-icon {
+  display: none;
+}
+
+.carousel-control-prev {
+  display: none;
+}
+.carousel-indicators .active {
+  opacity: 2;
+  background-color: #23a1dd;
+}
+
+.footer-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 35px;
+}
+
+.footer-text {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: -0.01em;
+  color: #878b95;
+  margin-left: 30px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  .login-sign {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    position: relative;
+  }
+
+  .login-container {
+    overflow: auto;
+  }
+  .skyimg-1 {
+    position: absolute;
+    top: 16%;
+    right: 9%;
+  }
+
+  .skyimg-2 {
+    position: absolute;
+    top: 0;
+    right: 45%;
+  }
+  .skyimg-3 {
+    position: absolute;
+    top: 45%;
+    left: 5%;
+  }
+  .skyimg-4 {
+    position: absolute;
+    top: 40%;
+    left: 23%;
+  }
+
+  .skyimg-5 {
+    position: absolute;
+    top: 21%;
+    left: 43%;
+  }
+
+  .skyimg-6 {
+    position: absolute;
+    top: 22%;
+    left: 5%;
+  }
+  .login-container {
+    padding: 20px 65px;
+  }
+
+  .big-1 {
+    position: absolute;
+    bottom: 5%;
+    left: 25%;
+  }
+  .big-2 {
+    position: absolute;
+    bottom: 5%;
+    left: 30%;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .login-sign {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    position: relative;
+  }
+  .slider-text {
+    padding-right: 260px;
+  }
+  .skyimg-1 {
+    position: absolute;
+    top: 17%;
+    right: 39%;
+  }
+  .skyimg-3 {
+    position: absolute;
+    top: 45%;
+    left: 5%;
+  }
+  .skyimg-4 {
+    position: absolute;
+    top: 40%;
+    left: 23%;
+  }
+
+  .skyimg-5 {
+    position: absolute;
+    top: 21%;
+    left: 43%;
+  }
+
+  .skyimg-6 {
+    position: absolute;
+    top: 22%;
+    left: 5%;
+  }
+  .login-container {
+    padding: 20px 65px;
+  }
+
+  .big-1 {
+    position: absolute;
+    bottom: 5%;
+    left: 25%;
+  }
+  .big-2 {
+    position: absolute;
+    bottom: 5%;
+    left: 30%;
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1200px) {
+  .login-sign {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    position: relative;
+  }
+  .slider-text {
+    padding-right: 300px;
+  }
+  .skyimg-1 {
+    position: absolute;
+    top: 18%;
+    right: 53%;
+  }
+
+  .skyimg-2 {
+    position: absolute;
+    top: 38%;
+    right: 45%;
+    z-index: 0px;
+  }
+
+  .skyimg-3 {
+    position: absolute;
+    top: 45%;
+    left: 5%;
+  }
+  .skyimg-4 {
+    position: absolute;
+    top: 40%;
+    left: 23%;
+  }
+
+  .skyimg-5 {
+    position: absolute;
+    top: 21%;
+    left: 43%;
+  }
+
+  .skyimg-6 {
+    position: absolute;
+    top: 22%;
+    left: 5%;
+  }
+  .login-container {
+    padding: 20px 65px;
+  }
+
+  .big-1 {
+    position: absolute;
+    bottom: 5%;
+    left: 25%;
+  }
+  .big-2 {
+    position: absolute;
+    bottom: 5%;
+    left: 30%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .login-sign {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .slider-text {
+    padding-right: 269px;
+  }
+  .login-left {
+    margin-left: 65px;
+  }
+
+  .airplan-img {
+    margin-top: 140px;
+  }
+
+  .skyimg-1 {
+    position: absolute;
+    top: 48%;
+    right: 58%;
+  }
+
+  .skyimg-2 {
+    position: absolute;
+    top: 38%;
+    right: 45%;
+  }
+
+  .skyimg-3 {
+    position: absolute;
+    top: 45%;
+    left: 5%;
+  }
+  .skyimg-4 {
+    position: absolute;
+    top: 40%;
+    left: 23%;
+  }
+
+  .skyimg-5 {
+    position: absolute;
+    top: 21%;
+    left: 43%;
+  }
+
+  .skyimg-6 {
+    position: absolute;
+    top: 22%;
+    left: 5%;
+  }
+  .login-container {
+    padding: 20px 65px;
+  }
+
+  .big-1 {
+    position: absolute;
+    bottom: 5%;
+    left: 25%;
+  }
+  .big-2 {
+    position: absolute;
+    bottom: 5%;
+    left: 30%;
+  }
+}

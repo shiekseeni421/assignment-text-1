@@ -1,0 +1,179 @@
+.card-el {
+  box-sizing: border-box;
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.5) 0%,
+    rgba(0, 0, 0, 0.4) 23.44%,
+    rgba(0, 0, 0, 0.3) 44.27%,
+    rgba(0, 0, 0, 0.2) 64.58%,
+    rgba(0, 0, 0, 0.102941) 81.77%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  height: 100vh;
+  padding-top: 65px;
+  padding-left: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-size: cover;
+  width: 390px;
+}
+
+.card-text {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0.004em;
+  color: #ffffff;
+  margin-top: 10px;
+}
+
+.fallow-button {
+  width: 67px;
+  background: #2c3033;
+  border-radius: 32px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  border: none;
+}
+
+.cake-text {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0.0015em;
+  color: #fffefe;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.img-icon {
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  background-size: cover;
+}
+
+.frame-container {
+  width: 36px;
+  margin-top: 20px;
+}
+
+.heart-frame {
+  cursor: pointer;
+  background: linear-gradient(
+    90.82deg,
+    rgba(0, 0, 0, 0.2) 0%,
+    rgba(0, 0, 0, 0.2) 99.85%
+  );
+  border-radius: 8px;
+  height: 36px;
+  width: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.heart-text {
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 15px;
+  letter-spacing: 0.015em;
+  color: #fffefe;
+  text-align: center;
+}
+
+.monster-card {
+  border-radius: 4px;
+  display: flex;
+  flex-direction: row;
+}
+
+.card-left {
+  width: 170px;
+  background: rgba(0, 0, 0, 0.58);
+  border-radius: 0px 4px 4px 0px;
+  padding: 12px;
+}
+
+.monster-right {
+  background: #d9d9d9;
+  border-radius: 4px 0px 0px 4px;
+  background-size: cover;
+  width: 80px;
+}
+
+.margin-left {
+  margin-left: 10px;
+}
+
+.monster-heading {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0.0015em;
+  color: #f2f2f2;
+}
+
+.monster-weight {
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 15px;
+  letter-spacing: 0.015em;
+  color: #f2f2f2;
+  padding-top: 10px;
+}
+
+.crossPrize {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 13px;
+  letter-spacing: 0.004em;
+  text-decoration-line: line-through;
+  text-transform: capitalize;
+  color: #f2f2f2;
+  align-self: center;
+}
+.greenPrize {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 13px;
+  letter-spacing: 0.004em;
+  color: #befd4f;
+  align-self: center;
+  margin-left: 10px;
+  margin-right: 15px;
+}
+
+.whiteColor {
+  height: 2px;
+  background: #afafaf;
+  width: 200px;
+}
+
+.green-color {
+  height: 2px;
+  background: #befd4f;
+  width: 101px;
+}
+
+.duration {
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 15px;
+  letter-spacing: 0.015em;
+  color: #fffefe;
+  margin-left: 15px;
+}
+
+.duration-container {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  padding-right: 10px;
+}
+
+.padding-right {
+  padding-right: 20px;
+}

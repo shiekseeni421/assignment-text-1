@@ -1,0 +1,64 @@
+.login-el {
+  box-sizing: border-box;
+  background: #ffffff;
+  box-shadow: 0px 24px 34px rgba(0, 0, 0, 0.04);
+  border-radius: 10px;
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+}
+
+.login-heading {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 33px;
+  text-align: center;
+  color: #2d2d2d;
+}
+
+.login-text {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+  text-align: center;
+  color: #666666;
+}
+
+.input-el {
+  background: #fafafa;
+  border: 1px solid #d8d8d8;
+  border-radius: 8px;
+  height: 48px;
+  outline: none;
+  width: 320px;
+  padding: 20px;
+}
+
+.forgot-password {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: right;
+  color: #666666;
+  align-self: flex-end;
+  padding-right: 20px;
+}
+
+.signIn-button {
+  background: #25a0da;
+  border-radius: 8px;
+  padding: 12px 20px;
+  width: 320px;
+  margin-top: 65px;
+}
+
+.register-el {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+  text-align: center;
+  color: #666666;
+  margin-top: 20px;
+}
